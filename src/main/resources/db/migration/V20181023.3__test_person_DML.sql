@@ -1,0 +1,1 @@
+INSERT INTO test_person (NAME,BIRTHDAY) VALUES ('name1','2018-10-23 12:12:12');

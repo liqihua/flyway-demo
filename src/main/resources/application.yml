@@ -8,9 +8,9 @@ spring:
     username: root
     password: 123
   flyway:
-#      url: #多数据源的时候需要填
-#      user: #多数据源的时候需要填
-#      password: #多数据源的时候需要填
+#      url: jdbc:mysql://127.0.0.1:3306/flyway_demo?useUnicode=true&characterEncoding=utf8&serverTimezone=Hongkong #多数据源的时候需要填
+#      user: root #多数据源的时候需要填
+#      password: 123 #多数据源的时候需要填
       enabled: true #默认是true，false关闭flyway
       baseline-on-migrate: true #当迁移时发现目标schema非空，而且带有没有元数据的表时，是否自动执行基准迁移，默认false
 
